@@ -85,18 +85,18 @@ body {
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
 }
 .modal {
-    background-color: red;
+    
     position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     background-color: rgba(52,52,50, 0.749);
-    opacity: 0;
+    
     visibility: hidden;
 }
 .conteudo-modal {
-    background-color: orange;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,10 +119,5 @@ body {
     border-width: 0;
     width: 640px;
     height: 360px;
-
-}
-.modal .aberto {
-    opacity: 1;
-    visibility: visible;
 
 }
