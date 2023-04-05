@@ -10,9 +10,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
 
- <link rel="stylesheet" href="./src/reset.css">
- <link rel="stylesheet" href="./src/estilo.css">
- <link rel="stylesheet" href="./src/responsivo.css">
+ <link rel="stylesheet" href="./src/css/reset.css">
+ <link rel="stylesheet" href="./src/css/estilo.css">
+ <link rel="stylesheet" href="./src/css/responsivo.css">
  
   <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
 </head>
@@ -29,8 +29,16 @@
         </a>
         <nav> 
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">detalhes</a></li>
+                <li class="git">
+                    <a href="https://github.com/Dev-HT?tab=repositories" target="_blank">
+                        <img src="./src/imagens/favicon-32x32.png" alt="ícone GitHub" class="icone" />GitHub
+                    </a>
+                </li>
+            
+                <li class="linkedin">
+                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                        <img src="./src/imagens/favicon-link-32x32.png" alt="ícone LinkedIn" class="icone" />LinkedIn</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -42,12 +50,16 @@
         </div>
         <img class="mario" src="./src/imagens/super-mario-chars.png">
 
-        <div class="modal">
+        <div class="modal aberto">
+
             <div class="conteudo-modal">
-                <span class="fechar-modal">x</span>
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXCpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autolay; clipboard-write; encrypted-media gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autolay; clipboard-write; encrypted-media gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         
+
+        </div>
+            
     </main>
 
     <script src="./src/js/index.js"></script>

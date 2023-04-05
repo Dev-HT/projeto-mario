@@ -21,7 +21,7 @@ function alternarModal(){
 botaoTrailer.addEventListener("click", () => {
     
     alternarModal();   
-    video.setAttribute("src", "https://www.youtube.com/embed/Cb4WV4aXCpk);   
+    video.setAttribute("src", "https://www.youtube.com/embed/Cb4WV4aXBpk");   
 });
 
 
@@ -29,5 +29,5 @@ botaoFecharModal.addEventListener("click", () => {
    
     alternarModal(); 
     
-    video.setAttribute("src", "https://www.youtube.com/embed/Cb4WV4aXCpk");
+    video.setAttribute("src", "https://www.youtube.com/embed/Cb4WV4aXBpk");
 });
